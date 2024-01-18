@@ -6,8 +6,9 @@
 		"scripts": {
 		"dev": "vite",
 		"build": "vite build",
+		"build-preview": "vite build --watch",
 		"preview": "vite preview",
-		"api-local": "npx json-server --watch backend/videos.json",
+		"server": "npx json-server --watch backend/videos.json",
 		"lint": "npx eslint .",
 		"lint:fix": "npx eslint --fix"
 	},
